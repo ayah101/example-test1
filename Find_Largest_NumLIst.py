@@ -8,3 +8,5 @@ print('today is Wednesday')
 print('Hello my name is Ayah')
 print('by bye')
 print('hello hello')
+print('hey whats up')
+
