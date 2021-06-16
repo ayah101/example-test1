@@ -7,7 +7,7 @@ import requests
 print(sys.version)
 print(sys.executable)
 
-## Strings
+# Strings
 # print('Hi my name is Ayah')
 # print('*' * 10)
 # price=10
@@ -18,105 +18,18 @@ print(sys.executable)
 # print(price)  ## will print 10
 # print(priceOfApple) ## will print 10
 
-##booleans
+# booleans
 # is_published = True
 
 
-## Task
-## We check in a patient named John Smith
-## he is 20 y old and new patient
+# Task
+# We check in a patient named John Smith
+# he is 20 y old and new patient
 # full_name  = 'John Smith'
 # age = 20
 # is_new = True
 # print(full_name+type(age))
 
-
-# Scanner getting data
-# name = input('What is you name? ')
-# print('Hi '+name)
-
-
-# name =input('What your name? ')
-# color = input("what you favorite color?")
-#
-
-# EXAMPLEEEEE 2 ---  ::::::::::::::::::::::::::::::::::
-# print(name+ ' likes ' +color+ ' color')
-# name = input("What is your name?")
-#
-# last_name = input("What is your last name?")
-# age = input("What is your age")
-# city = input("where are you from?")
-# marriage = input("Wre you married")
-# phone_number = input("What is you phone number? ")
-# kids= input('DO YOU HAVE KIDS? ')
-# print("This girl's name is: "+name+' ,and her last name is: '+last_name+'. She is '+age+' years old ')
-#
-# if(marriage =='yes'):
-#     print(name + ' is married.')
-# else:
-#     print(name+" isn't married")
-# if(kids == 'yes'):
-#     print(name+' has kid ')
-# else:
-#     print(name+ "doesn't have kid ")
-
-
-# Example 3 ::::::::::::::::::::::::::::::::::::
-# What you birthyear and - age  from birth year, then print evevrything
-# birthyear = input('What is your birth year?')
-# current_year = input('What is current year?')
-# age = int(current_year)-int(birthyear)
-# print("You' re " + str(age) + ' years old .')
-
-
-# Example 4 ::::::::::::::::::::::::::::::
-# Ask a user their weight(in pounds), convert it into kg and print on the terminal
-# lb = input("What's your weight in lb's? ")
-# weight = float(lb)/2.21
-# print(weight)
-
-
-# Indexes of String as characters single/partially  :::::::::::::::::
-# course = 'Python for beginners'
-# print(course[3:20])
-#
-# name = 'Jennifer'
-# print(name[1:-1]) # should print only J
-# name2= "Ayjeren"
-# print(name2[1:-1])
-
-# String Concatenation ::::::::::::::::::::::::::::::::::
-# first ='JOhn'
-# last ='Smith'
-# message = first+' ['+last+']'
-# print(message)
-
-# firstName = input("What is your fisrt name?")
-# lastNAme = input("What is ypu last name?")
-# fullName = "You'r full name is "+ firstName+' ['+lastNAme+']'
-# print(fullName)
-# ALSO WE CAN USE FORMATTED STRINGS:
-# first = "Ayah"
-# last="Smith"
-# message = f'{first} [{last}] is a coder'
-# print(message)
-
-
-# Defining the Strings  ::::::::::::::::::::::::::::::::::::::::::
-# course = 'Python for beginners'
-# length = len(course)
-# print(length)
-# print(course.replace('beginners','Absolute beginners'))
-# print(course)
-# #indetifying Word if its included in our sentence
-# print('Python' in course)  #true
-# msg2= "Hello evevryone my name is Ayah Noor".upper()
-# print(msg2)
-# print(msg2.find('r')) #finding letter
-# print(msg2)
-#  #finding word
-# print(msg2.find('name'))
 
 # Arithmetic Operations  :::::::::::::::::::::::::::::
 # print(10+3)
@@ -173,7 +86,7 @@ print(sys.executable)
 # print(math.floor(x3)) # rounds in 1num smaller
 
 
-## If Else Conditions
+# If Else Conditions
 # if its hot day , Its a hot day Drink plenty of water!! Otherwise if its cold day, Its cold day wear a warm sweater, otherwise its a lovely day
 
 #   ex2
@@ -245,7 +158,7 @@ print(sys.executable)
 #     print(f"You're {converted }pounds")
 
 
-## While loop condition ::::::
+# While loop condition ::::::
 # ex1
 # i = 1
 # while i<=5:
